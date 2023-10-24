@@ -14,11 +14,11 @@ package dxf_go
 // blank imports help docs.
 import (
 	// core package
-	_ "github.com/rpaloschi/dxf-go/core"
+	_ "github.com/whutwxn/dxf-go/core"
 	// document package
-	_ "github.com/rpaloschi/dxf-go/document"
+	_ "github.com/whutwxn/dxf-go/document"
 	// entities package
-	_ "github.com/rpaloschi/dxf-go/entities"
+	_ "github.com/whutwxn/dxf-go/entities"
 	// sections package
-	_ "github.com/rpaloschi/dxf-go/sections"
+	_ "github.com/whutwxn/dxf-go/sections"
 )

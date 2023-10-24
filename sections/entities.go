@@ -1,8 +1,8 @@
 package sections
 
 import (
-	"github.com/rpaloschi/dxf-go/core"
-	"github.com/rpaloschi/dxf-go/entities"
+	"github.com/whutwxn/dxf-go/core"
+	"github.com/whutwxn/dxf-go/entities"
 )
 
 // EntitiesSection representation.

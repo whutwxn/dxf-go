@@ -3,8 +3,8 @@ package document
 import (
 	"io"
 
-	"github.com/rpaloschi/dxf-go/core"
-	"github.com/rpaloschi/dxf-go/sections"
+	"github.com/whutwxn/dxf-go/core"
+	"github.com/whutwxn/dxf-go/sections"
 )
 
 // DxfDocument the representation of a full dxf document.

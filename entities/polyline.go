@@ -1,7 +1,7 @@
 package entities
 
 import (
-	"github.com/rpaloschi/dxf-go/core"
+	"github.com/whutwxn/dxf-go/core"
 )
 
 // Polyline Entity representation

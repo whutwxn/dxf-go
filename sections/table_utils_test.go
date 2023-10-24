@@ -1,8 +1,8 @@
 package sections
 
 import (
-	"github.com/rpaloschi/dxf-go/core"
 	"github.com/stretchr/testify/assert"
+	"github.com/whutwxn/dxf-go/core"
 	"strings"
 	"testing"
 )

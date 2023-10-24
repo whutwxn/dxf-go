@@ -1,6 +1,6 @@
 package entities
 
-import "github.com/rpaloschi/dxf-go/core"
+import "github.com/whutwxn/dxf-go/core"
 
 // Circle Entity representation
 type Circle struct {

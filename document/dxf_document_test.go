@@ -2,10 +2,10 @@ package document
 
 import (
 	"github.com/davecgh/go-spew/spew"
-	"github.com/rpaloschi/dxf-go/core"
-	"github.com/rpaloschi/dxf-go/entities"
-	"github.com/rpaloschi/dxf-go/sections"
 	"github.com/stretchr/testify/assert"
+	"github.com/whutwxn/dxf-go/core"
+	"github.com/whutwxn/dxf-go/entities"
+	"github.com/whutwxn/dxf-go/sections"
 	"strings"
 	"testing"
 )

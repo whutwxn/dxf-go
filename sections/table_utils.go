@@ -2,7 +2,7 @@ package sections
 
 import (
 	"errors"
-	"github.com/rpaloschi/dxf-go/core"
+	"github.com/whutwxn/dxf-go/core"
 )
 
 // TableEntryTags splits a slice of tags that contains the TABLES entry of a DXF file, validates

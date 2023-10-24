@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/rpaloschi/dxf-go.svg?branch=master)](https://travis-ci.org/rpaloschi/dxf-go)
+[![Build Status](https://travis-ci.org/whutwxn/dxf-go.svg?branch=master)](https://travis-ci.org/whutwxn/dxf-go)
 # DXF-go
 
 A DXF implementation for Golang.
@@ -47,12 +47,12 @@ A sample usage:
 ### Installing
 
 ```
-$ go get github.com/rpaloschi/dxf-go
+$ go get github.com/whutwxn/dxf-go
 ``` 
 
 ## Authors
 
-* **Ronald Paloschi** - [rpaloschi](https://github.com/rpaloschi)
+* **Ronald Paloschi** - [whutwxn](https://github.com/whutwxn)
 
 ## License
 
