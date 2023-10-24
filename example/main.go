@@ -10,7 +10,7 @@ import (
 
 func main() {
 
-	file, err := os.Open("E:/whut_wxn_doc/Work/项目/跨平台/dxf-go/example/南刘庄疏浚区背景图(1).dxf")
+	file, err := os.Open("E:/whut_wxn_doc/Work/项目/跨平台/dxf/dxf-go/example/南刘庄疏浚区背景图(1).dxf")
 	if err != nil {
 		log.Fatal(err)
 	}

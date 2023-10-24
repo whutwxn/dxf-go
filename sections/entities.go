@@ -117,6 +117,9 @@ func init() {
 		"TEXT": func(tags core.TagSlice) (entities.Entity, error) {
 			return entities.NewText(tags)
 		},
+		"MTEXT": func(tags core.TagSlice) (entities.Entity, error) {
+			return entities.NewMText(tags)
+		},
 		"INSERT": func(tags core.TagSlice) (entities.Entity, error) {
 			return entities.NewInsert(tags)
 		},
