@@ -40,6 +40,9 @@ func SplitTagChunks(tags core.TagSlice, stopTag *core.Tag, chunkDelimiter *core.
 		foundStop := false
 
 		for {
+			if tagIndex >= len(tags) {
+				break
+			}
 			if tags[tagIndex].Equals(chunkDelimiter) {
 				chunk = append(chunk, tags[tagIndex])
 				tagIndex++

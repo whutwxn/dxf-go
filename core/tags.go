@@ -63,10 +63,12 @@ func Tagger(stream io.Reader) NextTagFunction {
 
 	return func() (*Tag, error) {
 		code, err := readLine()
+		code = strings.TrimSpace(code)
 		if err != nil {
 			return &NoneTag, err
 		}
 		value, err := readLine()
+		value = strings.TrimSpace(value)
 		if err != nil {
 			return &NoneTag, err
 		}
@@ -78,7 +80,11 @@ func Tagger(stream io.Reader) NextTagFunction {
 			if err != nil {
 				return &NoneTag, err
 			}
-			valueType, _ := groupCodeTypes[intCode](strings.Trim(value, charsToTrim))
+			if groupCodeTypes[intCode] == nil {
+				return &NoneTag, err
+			}
+			valueType, err := groupCodeTypes[intCode](strings.Trim(value, charsToTrim))
+			//fmt.Println(err)
 			tag := new(Tag)
 			tag.Code = intCode
 			tag.Value = valueType
@@ -299,7 +305,9 @@ func init() {
 	for code := 113; code < 150; code++ {
 		groupCodeTypes[code] = NewFloat
 	}
-
+	for code := 160; code < 170; code++ {
+		groupCodeTypes[code] = NewInteger
+	}
 	for code := 170; code < 180; code++ {
 		groupCodeTypes[code] = NewInteger
 	}
