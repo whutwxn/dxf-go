@@ -71,7 +71,7 @@ func NewEntityList(tags []core.TagSlice) (entities.EntitySlice, error) {
 				entityList = append(entityList, entity)
 			}
 		} else {
-			core.Log.Printf("Unsupported Entity Type: %v", entityType)
+			//core.Log.Printf("Unsupported Entity Type: %v", entityType)
 		}
 	}
 

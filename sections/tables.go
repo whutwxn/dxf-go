@@ -88,7 +88,7 @@ func NewTablesSection(tags core.TagSlice) (*TablesSection, error) {
 					return nil, err
 				}
 			} else {
-				core.Log.Printf("Ignoring unknown table type: %+v\n", tableType)
+				//core.Log.Printf("Ignoring unknown table type: %+v\n", tableType)
 			}
 		}
 	}

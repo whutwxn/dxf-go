@@ -150,7 +150,7 @@ func (element *DxfParseable) Parse(tags TagSlice) error {
 				return err
 			}
 		} else {
-			Log.Printf("Discarding tag: %+v\n", tag.ToString())
+			//Log.Printf("Discarding tag: %+v\n", tag.ToString())
 		}
 	}
 	return nil

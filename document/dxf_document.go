@@ -69,7 +69,7 @@ func DxfDocumentFromStream(stream io.Reader) (*DxfDocument, error) {
 				return nil, err
 			}
 		} else {
-			core.Log.Printf("Ignoring unsupported Section type: %+v\n", sectionType)
+			//core.Log.Printf("Ignoring unsupported Section type: %+v\n", sectionType)
 		}
 	}
 

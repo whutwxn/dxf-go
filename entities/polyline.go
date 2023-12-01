@@ -77,9 +77,9 @@ func (p *Polyline) AddNestedEntities(entities EntitySlice) {
 		if vertex, ok := entity.(*Vertex); ok {
 			p.Vertices = append(p.Vertices, vertex)
 		} else {
-			core.Log.Printf(
-				"Skipping entity %v. Polylines can only contain Vertex entities.",
-				entity)
+			//core.Log.Printf(
+			//	"Skipping entity %v. Polylines can only contain Vertex entities.",
+			//	entity)
 		}
 	}
 }
